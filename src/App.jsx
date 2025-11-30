@@ -563,25 +563,25 @@ function SkillsOrbit() {
 
   useEffect(() => {
     const innerSkillsData = [
-      { src: "public/icons/react.svg", alt: "React" },
-      { src: "public/icons/docker.svg", alt: "Docker" },
-      { src: "public/icons/javascript.svg", alt: "JavaScript" },
-      { src: "public/icons/node.svg", alt: "Node.js" },
-      { src: "public/icons/spring.svg", alt: "Spring" },
-      { src: "public/icons/mysql.svg", alt: "MySQL" },
+      { src: "/icons/react.svg", alt: "React" },
+      { src: "/icons/docker.svg", alt: "Docker" },
+      { src: "/icons/javascript.svg", alt: "JavaScript" },
+      { src: "/icons/node.svg", alt: "Node.js" },
+      { src: "/icons/spring.svg", alt: "Spring" },
+      { src: "/icons/mysql.svg", alt: "MySQL" },
     ];
 
     const outerSkillsData = [
-      { src: "public/icons/aws.svg", alt: "AWS" },
-      { src: "public/icons/kubernets.svg", alt: "Kubernets" },
-      { src: "public/icons/mongodb.svg", alt: "MongoDB" },
-      { src: "public/icons/linux.svg", alt: "Linux" },
-      { src: "public/icons/github.svg", alt: "GitHub" },
-      { src: "public/icons/snowflake.svg", alt: "SnowFlake" },
-      { src: "public/icons/java.svg", alt: "Java" },
-      { src: "public/icons/python.svg", alt: "Python" },
-      { src: "public/icons/postgresql.svg", alt: "PostgreSQL" },
-      { src: "public/icons/powerbi.svg", alt: "PowerBi" },
+      { src: "/icons/aws.svg", alt: "AWS" },
+      { src: "/icons/kubernets.svg", alt: "Kubernets" },
+      { src: "/icons/mongodb.svg", alt: "MongoDB" },
+      { src: "/icons/linux.svg", alt: "Linux" },
+      { src: "/icons/github.svg", alt: "GitHub" },
+      { src: "/icons/snowflake.svg", alt: "SnowFlake" },
+      { src: "/icons/java.svg", alt: "Java" },
+      { src: "/icons/python.svg", alt: "Python" },
+      { src: "/icons/postgresql.svg", alt: "PostgreSQL" },
+      { src: "/icons/powerbi.svg", alt: "PowerBi" },
     ];
 
     const createDots = (skills, circleEl, extraClass) => {
